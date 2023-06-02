@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    
+}
+
+img{
+    height: 120px;
+    margin-right: 16px;
+}
+form{
+    text-align: center;
+    margin-top: 32px;
+    justify-content: center;
+}
+form input{
+    padding: 8px;
+    width: 400px;
+    border-radius: 10px;
+    font-size: 24px;
+}
+form button{
+    padding: 10px;
+    background-color: rgb(26, 141, 11);
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+ul{
+    text-align: center;
+    margin-top: 16px;
+    width: 50%;
+    margin: 0 auto;
+    
+}
+ul li{
+    border-bottom: 2px solid rgba(0,0,0,0.2);
+    font-size: 32px;
+    padding: 8px;
+    list-style: none;
+    
+}
+.tarefaConcluida{
+    text-decoration: line-through;
+}
